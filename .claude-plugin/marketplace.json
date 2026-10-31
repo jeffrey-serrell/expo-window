@@ -1,14 +1,23 @@
 {
   "name": "expo-window",
-  "description": "Personal tools",
   "owner": {
-    "name": "Jeffrey Serrell"
+    "name": "Jeffrey Serrell",
+    "url": "https://github.com/jeffrey-serrell"
+  },
+  "metadata": {
+    "description": "Personal plugins by Jeffrey Serrell.",
+    "version": "1.0.0"
   },
   "plugins": [
     {
-      "name": "prep-list",
-      "source": "./plugins/prep-list",
-      "description": "Placeholder plugin"
+      "name": "gitlab",
+      "source": "./plugins/gitlab",
+      "description": "GitLab's official remote MCP server: projects, issues, merge requests, pipelines, and code search on GitLab.com or self-managed GitLab. Signs in with OAuth.",
+      "category": "development",
+      "tags": ["gitlab", "mcp", "oauth", "merge-requests", "issues", "ci"]
     }
-  ]
+  ],
+  "renames": {
+    "prep-list": null
+  }
 }
