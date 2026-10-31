@@ -1,0 +1,21 @@
+{
+  "name": "gcp-cloud-run",
+  "displayName": "Google Cloud Run",
+  "version": "0.1.0",
+  "description": "Connects Claude Code to Google's Cloud Run remote MCP server to list, inspect, and deploy Cloud Run services, acting with your own Google Cloud IAM permissions.",
+  "author": {
+    "name": "Jeffrey Serrell",
+    "url": "https://github.com/jeffrey-serrell"
+  },
+  "homepage": "https://github.com/jeffrey-serrell/expo-window/tree/main/plugins/gcp-cloud-run#readme",
+  "repository": "https://github.com/jeffrey-serrell/expo-window",
+  "keywords": [
+    "google-cloud",
+    "cloud-run",
+    "mcp",
+    "serverless",
+    "deploy",
+    "gcp"
+  ],
+  "privacyPolicyUrl": "https://cloud.google.com/terms/cloud-privacy-notice"
+}

@@ -10,6 +10,13 @@
   },
   "plugins": [
     {
+      "name": "gcp-cloud-run",
+      "source": "./plugins/gcp-cloud-run",
+      "description": "Google's Cloud Run remote MCP server: list, inspect, and deploy Cloud Run services, acting with your own Google Cloud IAM permissions. Authenticates with a gcloud access token from GCP_ACCESS_TOKEN.",
+      "category": "infrastructure",
+      "tags": ["google-cloud", "cloud-run", "mcp", "serverless", "deploy"]
+    },
+    {
       "name": "gitlab",
       "source": "./plugins/gitlab",
       "description": "GitLab's official remote MCP server: projects, issues, merge requests, pipelines, and code search on GitLab.com or self-managed GitLab. Signs in with OAuth.",

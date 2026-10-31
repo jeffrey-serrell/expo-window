@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "gcp-cloud-run": {
+      "type": "http",
+      "url": "${GCP_CLOUD_RUN_MCP_URL:-https://run.googleapis.com/mcp}",
+      "headers": {
+        "Authorization": "Bearer ${GCP_ACCESS_TOKEN}",
+        "x-goog-user-project": "${GCP_PROJECT_ID}"
+      }
+    }
+  }
+}
