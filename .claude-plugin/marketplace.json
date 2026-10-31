@@ -1,0 +1,14 @@
+{
+  "name": "expo-window",
+  "description": "Personal tools",
+  "owner": {
+    "name": "Jeffrey Serrell"
+  },
+  "plugins": [
+    {
+      "name": "prep-list",
+      "source": "./plugins/prep-list",
+      "description": "Placeholder plugin"
+    }
+  ]
+}
