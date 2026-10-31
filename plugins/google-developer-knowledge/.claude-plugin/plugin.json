@@ -1,0 +1,21 @@
+{
+  "name": "google-developer-knowledge",
+  "displayName": "Google Developer Knowledge",
+  "version": "0.1.0",
+  "description": "Connects Claude Code to Google's Developer Knowledge MCP server to search and read official Google developer documentation for Google Cloud, Firebase, Android, Maps, and more.",
+  "author": {
+    "name": "Jeffrey Serrell",
+    "url": "https://github.com/jeffrey-serrell"
+  },
+  "homepage": "https://github.com/jeffrey-serrell/expo-window/tree/main/plugins/google-developer-knowledge#readme",
+  "repository": "https://github.com/jeffrey-serrell/expo-window",
+  "keywords": [
+    "google",
+    "documentation",
+    "mcp",
+    "google-cloud",
+    "firebase",
+    "android"
+  ],
+  "privacyPolicyUrl": "https://policies.google.com/privacy"
+}

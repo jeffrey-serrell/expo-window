@@ -17,6 +17,13 @@
       "tags": ["gitlab", "mcp", "oauth", "merge-requests", "issues", "ci"]
     },
     {
+      "name": "google-developer-knowledge",
+      "source": "./plugins/google-developer-knowledge",
+      "description": "Google's Developer Knowledge MCP server: search and read official Google developer documentation for Google Cloud, Firebase, Android, Maps, and more. Read-only. Authenticates with an API key from DEVELOPERKNOWLEDGE_API_KEY.",
+      "category": "development",
+      "tags": ["google", "documentation", "mcp", "api-key"]
+    },
+    {
       "name": "terraform",
       "source": "./plugins/terraform",
       "description": "HashiCorp's remote Terraform MCP server (beta): the Terraform Registry, your private registry, and HCP Terraform workspaces, runs, and variables. Authenticates with an HCP Terraform API token from TFE_TOKEN.",
