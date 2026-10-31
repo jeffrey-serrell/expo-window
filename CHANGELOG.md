@@ -10,6 +10,7 @@ The marketplace version is `metadata.version` in [`.claude-plugin/marketplace.js
 
 - Removed the unsupported `privacyPolicyUrl` key from all seven plugin manifests. The Claude app reported it as an unrecognized key in `plugin.json` and stripped it. Each plugin's README already links the vendor's privacy page in its Privacy section, so the link now lives only there.
 - Bumped every plugin to 0.1.1 so installed copies pick up the corrected manifests: `gcp-bigquery`, `gcp-cloud-run`, `gcp-gke`, `gitlab`, `google-developer-knowledge`, `sonarqube`, and `terraform`.
+- `scripts/validate.sh` now fails on unknown keys in `marketplace.json` (top level, `owner`, `metadata`, and each plugin entry) and in each `plugin.json` (top level and `author`), checked with `jq` against allowlists taken from Claude Code's manifest schemas. `claude plugin validate --strict` doesn't flag `privacyPolicyUrl` and the other directory listing fields in `plugin.json`, so it missed this problem. The script now requires `jq`.
 
 ## [1.1.0] - 2026-10-30
 

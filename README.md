@@ -57,10 +57,10 @@ Plugins that use a token or key read it from an environment variable when Claude
 
 Each plugin goes in `plugins/<name>/` with a `.claude-plugin/plugin.json`, a README, and an entry in [`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.json) whose `name` matches the plugin's. Record changes in [CHANGELOG.md](CHANGELOG.md), and bump the plugin's `version` in `plugin.json` when you release a change, because users stay on their cached copy until it changes.
 
-Before you commit, run the checks. They need the `claude` CLI on your `PATH`, and use `jq` if it's installed:
+Before you commit, run the checks. They need the `claude` CLI and `jq` on your `PATH`:
 
 ```bash
 ./scripts/validate.sh
 ```
 
-The script runs `claude plugin validate` on the marketplace and on every plugin with `--strict`, checks the JSON, and confirms every entry name matches its `plugin.json`. It exits non-zero on any failure.
+The script runs `claude plugin validate` on the marketplace and on every plugin with `--strict`, checks the JSON, and confirms every entry name matches its `plugin.json`. It also fails on any key that Claude Code doesn't recognize in `marketplace.json` or a `plugin.json`, including the directory listing fields such as `privacyPolicyUrl` that `claude plugin validate` lets through. Link a plugin's privacy policy from the Privacy section of its README instead. It exits non-zero on any failure.
