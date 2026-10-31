@@ -1,4 +1,13 @@
+# OS files
 .DS_Store
-node_modules
+Thumbs.db
+
+# Dependencies
+node_modules/
+
+# Logs
 *.log
+
+# Local environment files, which can hold secrets. A template named .env.example is allowed.
 .env*
+!.env.example
