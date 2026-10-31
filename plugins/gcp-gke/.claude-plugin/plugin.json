@@ -1,0 +1,21 @@
+{
+  "name": "gcp-gke",
+  "displayName": "Google Kubernetes Engine (GKE)",
+  "version": "0.1.0",
+  "description": "Connects Claude Code to Google's GKE remote MCP server to inspect clusters, node pools, Kubernetes resources, events, and logs, acting with your own Google Cloud IAM permissions.",
+  "author": {
+    "name": "Jeffrey Serrell",
+    "url": "https://github.com/jeffrey-serrell"
+  },
+  "homepage": "https://github.com/jeffrey-serrell/expo-window/tree/main/plugins/gcp-gke#readme",
+  "repository": "https://github.com/jeffrey-serrell/expo-window",
+  "keywords": [
+    "google-cloud",
+    "gke",
+    "kubernetes",
+    "mcp",
+    "containers",
+    "gcp"
+  ],
+  "privacyPolicyUrl": "https://cloud.google.com/terms/cloud-privacy-notice"
+}

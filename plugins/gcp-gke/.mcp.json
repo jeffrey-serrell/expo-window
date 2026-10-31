@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "gcp-gke": {
+      "type": "http",
+      "url": "${GCP_GKE_MCP_URL:-https://container.googleapis.com/mcp}",
+      "headers": {
+        "Authorization": "Bearer ${GCP_ACCESS_TOKEN}",
+        "x-goog-user-project": "${GCP_PROJECT_ID}"
+      }
+    }
+  }
+}

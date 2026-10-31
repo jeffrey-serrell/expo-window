@@ -17,6 +17,13 @@
       "tags": ["google-cloud", "cloud-run", "mcp", "serverless", "deploy"]
     },
     {
+      "name": "gcp-gke",
+      "source": "./plugins/gcp-gke",
+      "description": "Google's GKE remote MCP server: inspect clusters, node pools, Kubernetes resources, events, and logs, with tools that can change them, acting with your own Google Cloud IAM permissions. Authenticates with a gcloud access token from GCP_ACCESS_TOKEN.",
+      "category": "infrastructure",
+      "tags": ["google-cloud", "gke", "kubernetes", "mcp"]
+    },
+    {
       "name": "gitlab",
       "source": "./plugins/gitlab",
       "description": "GitLab's official remote MCP server: projects, issues, merge requests, pipelines, and code search on GitLab.com or self-managed GitLab. Signs in with OAuth.",
