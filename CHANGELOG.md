@@ -4,6 +4,13 @@ All notable changes to this repository are recorded here. The format follows [Ke
 
 The marketplace version is `metadata.version` in [`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.json). Each plugin's version is the `version` in its own `plugin.json`.
 
+## [1.1.1] - 2026-10-30
+
+### Fixed
+
+- Removed the unsupported `privacyPolicyUrl` key from all seven plugin manifests. The Claude app reported it as an unrecognized key in `plugin.json` and stripped it. Each plugin's README already links the vendor's privacy page in its Privacy section, so the link now lives only there.
+- Bumped every plugin to 0.1.1 so installed copies pick up the corrected manifests: `gcp-bigquery`, `gcp-cloud-run`, `gcp-gke`, `gitlab`, `google-developer-knowledge`, `sonarqube`, and `terraform`.
+
 ## [1.1.0] - 2026-10-30
 
 ### Added

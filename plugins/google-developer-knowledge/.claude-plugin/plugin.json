@@ -1,7 +1,7 @@
 {
   "name": "google-developer-knowledge",
   "displayName": "Google Developer Knowledge",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Connects Claude Code to Google's Developer Knowledge MCP server to search and read official Google developer documentation for Google Cloud, Firebase, Android, Maps, and more.",
   "author": {
     "name": "Jeffrey Serrell",
@@ -16,6 +16,5 @@
     "google-cloud",
     "firebase",
     "android"
-  ],
-  "privacyPolicyUrl": "https://policies.google.com/privacy"
+  ]
 }

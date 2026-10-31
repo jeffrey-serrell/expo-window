@@ -81,7 +81,7 @@ For more, see the [connection errors](https://developer.hashicorp.com/terraform/
 
 ## Privacy
 
-Claude Code sends MCP requests, with your token, straight to HashiCorp's server at `mcp.terraform.io`, which calls HCP Terraform and the Terraform Registry for you. Tool results become part of your conversation with Claude. This plugin collects nothing itself. HashiCorp handles your data under its [privacy policy](https://www.hashicorp.com/en/trust/privacy).
+Claude Code sends MCP requests, with your token, straight to HashiCorp's server at `mcp.terraform.io`, which calls HCP Terraform and the Terraform Registry for you. Tool results become part of your conversation with Claude. This plugin collects nothing itself. HashiCorp handles your data under the [HashiCorp privacy policy](https://www.hashicorp.com/en/trust/privacy).
 
 ## Sources
 
