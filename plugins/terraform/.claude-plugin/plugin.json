@@ -1,0 +1,21 @@
+{
+  "name": "terraform",
+  "displayName": "Terraform",
+  "version": "0.1.0",
+  "description": "Connects Claude Code to HashiCorp's remote Terraform MCP server for the Terraform Registry, your private registry, and HCP Terraform workspaces, runs, and variables.",
+  "author": {
+    "name": "Jeffrey Serrell",
+    "url": "https://github.com/jeffrey-serrell"
+  },
+  "homepage": "https://github.com/jeffrey-serrell/expo-window/tree/main/plugins/terraform#readme",
+  "repository": "https://github.com/jeffrey-serrell/expo-window",
+  "keywords": [
+    "terraform",
+    "hcp-terraform",
+    "mcp",
+    "infrastructure-as-code",
+    "registry",
+    "hashicorp"
+  ],
+  "privacyPolicyUrl": "https://www.hashicorp.com/en/trust/privacy"
+}
