@@ -1,0 +1,21 @@
+{
+  "name": "gitlab",
+  "displayName": "GitLab",
+  "version": "0.1.0",
+  "description": "Connects Claude Code to GitLab's official remote MCP server for projects, issues, merge requests, pipelines, and code search on GitLab.com or self-managed GitLab.",
+  "author": {
+    "name": "Jeffrey Serrell",
+    "url": "https://github.com/jeffrey-serrell"
+  },
+  "homepage": "https://github.com/jeffrey-serrell/expo-window/tree/main/plugins/gitlab#readme",
+  "repository": "https://github.com/jeffrey-serrell/expo-window",
+  "keywords": [
+    "gitlab",
+    "mcp",
+    "merge-requests",
+    "issues",
+    "ci",
+    "devops"
+  ],
+  "privacyPolicyUrl": "https://about.gitlab.com/privacy/"
+}
