@@ -10,6 +10,13 @@
   },
   "plugins": [
     {
+      "name": "gcp-bigquery",
+      "source": "./plugins/gcp-bigquery",
+      "description": "Google's BigQuery remote MCP server: list datasets and tables and run SQL queries, acting with your own Google Cloud IAM permissions. Authenticates with a gcloud access token from GCP_ACCESS_TOKEN.",
+      "category": "data",
+      "tags": ["google-cloud", "bigquery", "mcp", "sql", "data"]
+    },
+    {
       "name": "gcp-cloud-run",
       "source": "./plugins/gcp-cloud-run",
       "description": "Google's Cloud Run remote MCP server: list, inspect, and deploy Cloud Run services, acting with your own Google Cloud IAM permissions. Authenticates with a gcloud access token from GCP_ACCESS_TOKEN.",

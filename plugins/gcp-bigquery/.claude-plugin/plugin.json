@@ -1,0 +1,21 @@
+{
+  "name": "gcp-bigquery",
+  "displayName": "BigQuery",
+  "version": "0.1.0",
+  "description": "Connects Claude Code to Google's BigQuery remote MCP server to list datasets and tables and run SQL queries, acting with your own Google Cloud IAM permissions.",
+  "author": {
+    "name": "Jeffrey Serrell",
+    "url": "https://github.com/jeffrey-serrell"
+  },
+  "homepage": "https://github.com/jeffrey-serrell/expo-window/tree/main/plugins/gcp-bigquery#readme",
+  "repository": "https://github.com/jeffrey-serrell/expo-window",
+  "keywords": [
+    "google-cloud",
+    "bigquery",
+    "mcp",
+    "sql",
+    "data",
+    "gcp"
+  ],
+  "privacyPolicyUrl": "https://cloud.google.com/terms/cloud-privacy-notice"
+}
