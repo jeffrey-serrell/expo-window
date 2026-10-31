@@ -24,6 +24,13 @@
       "tags": ["google", "documentation", "mcp", "api-key"]
     },
     {
+      "name": "sonarqube",
+      "source": "./plugins/sonarqube",
+      "description": "The SonarQube Cloud-hosted MCP server, read-only: issues, quality gates, coverage, security hotspots, and measures, in the EU or US region or on SonarQube Server. Authenticates with a user token from SONARQUBE_TOKEN.",
+      "category": "development",
+      "tags": ["sonarqube", "mcp", "code-quality", "security", "read-only"]
+    },
+    {
       "name": "terraform",
       "source": "./plugins/terraform",
       "description": "HashiCorp's remote Terraform MCP server (beta): the Terraform Registry, your private registry, and HCP Terraform workspaces, runs, and variables. Authenticates with an HCP Terraform API token from TFE_TOKEN.",

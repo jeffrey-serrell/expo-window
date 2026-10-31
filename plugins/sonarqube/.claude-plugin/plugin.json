@@ -1,0 +1,21 @@
+{
+  "name": "sonarqube",
+  "displayName": "SonarQube",
+  "version": "0.1.0",
+  "description": "Connects Claude Code to the SonarQube Cloud-hosted MCP server, read-only, for issues, quality gates, coverage, security hotspots, and measures. Also works with SonarQube Server's hosted MCP endpoint.",
+  "author": {
+    "name": "Jeffrey Serrell",
+    "url": "https://github.com/jeffrey-serrell"
+  },
+  "homepage": "https://github.com/jeffrey-serrell/expo-window/tree/main/plugins/sonarqube#readme",
+  "repository": "https://github.com/jeffrey-serrell/expo-window",
+  "keywords": [
+    "sonarqube",
+    "sonarqube-cloud",
+    "mcp",
+    "code-quality",
+    "security",
+    "quality-gates"
+  ],
+  "privacyPolicyUrl": "https://www.sonarsource.com/company/privacy/"
+}
